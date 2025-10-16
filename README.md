@@ -5,19 +5,24 @@ Inside that create a custom folder, and then place this zipped-extracted code in
 You can test your node as you build it by running it in a local n8n instance.
 
 # Install n8n using npm:
+`npm i`
 
-# npm install n8n -g
+`npm install n8n -g`
 When you are ready to test your node, publish it locally:
 
 ## In your node directory
-# npm run build
-# npm link
+`npm run build`
+
+`npm link`
+
 Install the node into your local n8n instance:
 
 
 ## In the nodes directory within your n8n installation
 ## node-package-name is the name from the package.json
-# npm link <node-package-name>
+
+`npm link <node-package-name>`
+
 Check your directory
 
 Make sure you run npm link <node-name> in the nodes directory within your n8n installation. This can be:
@@ -26,4 +31,4 @@ Make sure you run npm link <node-name> in the nodes directory within your n8n in
 
 ## Start n8n:
 
-# n8n start
+`n8n start`
